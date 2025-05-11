@@ -51,7 +51,7 @@ def diagramme_capitalisation():
                 total = client[1]
                 break
         else:
-            print(f"❌ Données non trouvées pour {nom}")
+            print(f" Données non trouvées pour {nom}")
             continue
         taux = p2.get_taux(nom)
         capital_final_value = total * (1 + taux / 100)

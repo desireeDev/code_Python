@@ -15,7 +15,8 @@ def get_taux(nom):
 # - Faible: total_investi < 30.000
 # - Moyen: 30.000 < total_investi < 70.000
 # - Haut: total_investi > 70.000
-print("\n=== 🏷️  CLASSEMENT DES CLIENTS ===")
+
+print("\n=== CLASSEMENT DES CLIENTS ===")
 criteres = []
 for client in p1.new_list:
     nom = client[0]
